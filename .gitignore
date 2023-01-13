@@ -7,6 +7,10 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/[Bb]uildLogs
+/[Bb]uildLinux/
+/[Bb]uildmacOS/
+/[Bb]uildWindows/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
