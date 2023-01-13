@@ -1,0 +1,56 @@
+Unity Editor version:    2021.3.16f1 (4016570cf34f)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP Fri Apr 2 22:23:49 UTC 2021
+Kernel version:          5.10.16.3-microsoft-standard-WSL2
+Architecture:            x86_64
+Available memory:        5941 MB
+User lukas.elenbergas@mif.stud.vu.lt logged in successfully
+[LicensingClient] Channel doesn't exist: "LicenseClient-root"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 55)
+[SignatureVerifier] Application signature verification not supported on this platform.
+[LicensingClient] Handshaking with LicensingClient (version: 1.9.0+249add7)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-root" (connect: 1.22s, validation: 0.25s, handshake: 0.00s)
+[Licensing::Module] Connected to LicensingClient (PId: 55, launch time: 0.00, total connection time: 1.47s)
+Entitlement-based licensing initiated
+[Licensing::Module] Successfully updated the access token XH0qQblzNS56BsglpkCpCCFEYnOX2RUHof7D1UMs56w012f
+[Licensing::Module] Successfully activated the entitlement license
+[Licensing::Module] Successfully cleared the access token
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+UnityConnectLoginRequest: Failed to login - please check your username or password
+No sufficient permissions while processing request "https://core.cloud.unity3d.com/api/login", HTTP error code 401
+.Cancelling DisplayDialog: Failed to activate/update license Timeout occured while trying to update license. Please try again later or contact support@unity3d.com
+This should not be called in batch mode.
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CurlRequest]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 4.0 KB
+  Peak Large allocation bytes 0 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1673613982406,"processId":48,"allocatedMemory":124723,"memoryLabels":[{"Default":-126},{"Thread":64},{"Manager":6810},{"Serialization":40},{"BaseObject":12216},{"String":5630},{"DynamicArray":432},{"HashMap":3668},{"Utility":1024},{"Curl":1112},{"PoolAlloc":120},{"GI":3248},{"VR":80},{"Secure":26656},{"RestService":1022},{"License":288},{"UnityConnect":29720},{"Collab":25},{"LocalIPC":99},{"ProfilerEditor":20021},{"TLS":11918},{"Licensing":656}]}
