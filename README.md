@@ -9,3 +9,5 @@
 * Linux Build SUCCESS - 2023-01-13 21:11:52 UTC - Runtime: 30 seconds
 
 * Linux Build SUCCESS - 2023-01-23 12:26:55 UTC - Runtime: 112 seconds
+
+* Linux Build FAIL - 2023-01-23 12:34:06 UTC - Runtime: 43 seconds
